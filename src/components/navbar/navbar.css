@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    background-color: #0f0e0e;
+    border-radius: 10px;
+}
+
+.navbar-name {
+    float: left;
+    padding-top: 1px;
+    padding-left: 20px;
+    color:rgb(14, 128, 235);
+    font-family: 'Bitcount Prop Single';
+    font-size: 33px;
+}
+
+.navbar-left {
+    list-style-type: none;
+    float: left;
+    padding-left: 10px;
+}
+
+.navbar-right {
+    list-style-type: none;
+    float: right;
+    padding-right: 10px;
+}
+
+.navbar-item {
+    float: inline-start;
+}
+
+.join-item {
+    float: inline-start;
+}
+
+.navbar-item a {
+    display: flex;
+    color: white;
+    font-family: 'Archivo Black';
+    font-size: 25px;
+    padding: 12px 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.navbar-item a:hover {
+    color:rgb(14, 128, 235);
+    background-color: rgba(51, 48, 48, 0.5);
+    transition: background-color 1s ease-in, color 1s ease;
+    border-radius: 10px;
+}
+
+.join-item a {
+    display: flex;
+    color: rgb(248, 247, 245);
+    background-color: rgb(14, 128, 235);
+    border-radius: 20px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 30px;
+    padding: 8px 30px;
+    padding-left: 25px;
+    padding-right: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.join-item a:hover {
+    color:rgb(14, 128, 235);
+    background-color: rgb(248, 247, 245);
+    transition: background-color 1s ease-out, color 1s ease;
+}
