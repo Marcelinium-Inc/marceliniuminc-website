@@ -182,3 +182,12 @@ body {
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
 }
+
+/* Bottom bar */
+
+#bottombar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

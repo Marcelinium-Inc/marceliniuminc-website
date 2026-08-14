@@ -1,0 +1,47 @@
+/* body */
+
+body {
+    background-color:#ffffff;
+}
+
+/* Navbar */
+
+#navbar {
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+}
+
+/* Releases/Creations */
+
+.creations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creations-title {
+    justify-content: start;
+    background-color: rgb(248, 247, 245);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: max-content;
+    border-radius: 20px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 35px;
+    transition: padding 2s ease, font-size 2s ease;
+}
+
+.creations-title:hover {
+    padding: 25px;
+    font-size: 45px;
+}
+
+/* Bottom bar */
+
+#bottombar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

@@ -18,6 +18,13 @@ fetch("../components/releasebox/releasebox.html")
         elements.forEach(element => { element.innerHTML = releasebox;})
     })
 
+fetch("../components/creationsbox/creationsbox.html")
+    .then(response => response.text())
+    .then(creationsbox => {
+        elements = document.querySelectorAll("#creationsbox");
+        elements.forEach(element => { element.innerHTML = creationsbox;})
+    })
+
 fetch("../components/bottombar/bottombar.html")
     .then(response => response.text())
     .then(bottombar => { 
