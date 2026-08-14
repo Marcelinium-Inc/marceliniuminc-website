@@ -11,6 +11,13 @@ fetch("../components/newsbox/newsbox.html")
         elements.forEach(element => { element.innerHTML = newsbox;})
     })
 
+fetch("../components/newsboxExtra/newsboxExtra.html")
+    .then(response => response.text())
+    .then(newsboxExtra => {
+        elements = document.querySelectorAll("#newsboxExtra");
+        elements.forEach(element => { element.innerHTML = newsboxExtra;})
+    })
+
 fetch("../components/releasebox/releasebox.html")
     .then(response => response.text())
     .then(releasebox => {
