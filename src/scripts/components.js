@@ -3,3 +3,23 @@ fetch("../components/navbar/navbar.html")
     .then(navbar => { 
             document.getElementById("navbar").innerHTML = navbar;
             })
+
+fetch("../components/newsbox/newsbox.html")
+    .then(response => response.text())
+    .then(newsbox => {
+        elements = document.querySelectorAll("#newsbox");
+        elements.forEach(element => { element.innerHTML = newsbox;})
+    })
+
+fetch("../components/releasebox/releasebox.html")
+    .then(response => response.text())
+    .then(releasebox => {
+        elements = document.querySelectorAll("#releasebox");
+        elements.forEach(element => { element.innerHTML = releasebox;})
+    })
+
+fetch("../components/bottombar/bottombar.html")
+    .then(response => response.text())
+    .then(bottombar => { 
+            document.getElementById("bottombar").innerHTML = bottombar;
+            })

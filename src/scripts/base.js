@@ -1,4 +1,3 @@
 $(document).ready(function() {
-    $("#navbar").fadeIn(1800);
-    $(".top-box").fadeIn(2200);
-})
+    $("#top-image").fadeIn(2200);
+});

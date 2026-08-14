@@ -1,0 +1,75 @@
+.releasebox {
+    display: Flex;
+    padding: 15px 10px;
+    margin: 20px 0px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    gap: 14px;
+    width: 100%;
+    max-width: 1100px;
+    gap: 30px;
+    align-items: center;
+    transition: padding 1.5s ease, box-shadow 1s ease, border-radius 1s ease;
+}
+
+.releasebox:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding: 25px 10px;
+}
+
+.releasebox-texts {
+    float: left;
+}
+
+.releasebox-data {
+    padding-right: -10px;
+    justify-content: center;
+    margin: 10px;
+    align-self: start; 
+    background-color: #e3f2fd;
+    color: rgb(14, 128, 235);
+    padding: 6px 10px;
+    border-radius: 18px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 10px;
+    text-transform: uppercase;
+    transition: padding 2s ease, font-size 2s ease;
+}
+
+.releasebox-data:hover {
+    padding: 16px;
+    font-size: 16px;
+}
+
+.releasebox-name {
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    font-family: 'Bitcount Prop Single';
+    font-size: 30px;
+    color: rgb(14, 128, 235);
+    margin: 10px;
+    transition: padding 2s ease, font-size 2s ease;
+}
+
+.releasebox-name:hover {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.releasebox-text {
+    padding: 10px;
+    width: fit-content;
+    margin: 10px;
+    font-family: 'Oswald';
+    font-size: 14px;
+    color: #444;
+    margin: 10px;
+    transition: padding 2s ease, font-size 2s ease;
+}
+
+.releasebox-text:hover {
+    font-size: 18px;
+    padding: 20px 0px;
+}
