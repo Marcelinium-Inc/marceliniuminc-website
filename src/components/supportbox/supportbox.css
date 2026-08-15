@@ -1,0 +1,64 @@
+.supportbox {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    max-width: 850px;
+    width: fit-content;
+    justify-content: center;
+    margin: 2%;
+    transition: all 1s ease;
+}
+
+.supportbox:hover {
+    padding: 25px;
+}
+
+.supportboxtitle {
+    padding: 20px;
+    width: fit-content;
+    color:rgb(14, 128, 235);
+    background-color: azure;
+    font-family: 'Bitcount Prop Single';
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+
+.supportboxtitle:hover {
+    padding: 30px;
+    font-size: 28px;
+}
+
+.supportboxdate {
+    width: fit-content;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: 'Oswald';
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 1s ease;
+}
+
+.supportboxdate:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    font-size: 24px;
+    padding: 14px;
+}
+
+.contenttext {
+    width: fit-content;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: 'Oswald';
+    font-size: 16px;
+    padding: 14px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+
+.contenttext:hover {
+    font-size: 21px;
+    padding: 18px;
+}

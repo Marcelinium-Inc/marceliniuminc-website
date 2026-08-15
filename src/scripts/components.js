@@ -32,6 +32,14 @@ fetch("../components/creationsbox/creationsbox.html")
         elements.forEach(element => { element.innerHTML = creationsbox;})
     })
 
+fetch("../components/supportbox/supportbox.html")
+    .then(response => response.text())
+    .then(supportbox => {
+        elements = document.querySelectorAll("#supportbox");
+        elements.forEach(element => { element.innerHTML = supportbox;})
+    })
+
+
 fetch("../components/bottombar/bottombar.html")
     .then(response => response.text())
     .then(bottombar => { 

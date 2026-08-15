@@ -1,6 +1,7 @@
 /* body */
 
 body {
+    display: none;
     background-color:#ffffff;
 }
 
@@ -48,7 +49,7 @@ body {
     margin: 0;
     color: rgb(14, 128, 235);
     font-family: "Bitcount Prop Single";
-    font-size: clamp(20px, 5vw, 100px);
+    font-size: clamp(20px, 5vw, 80px);
     transition: font-size 1s ease
 }
 
@@ -155,8 +156,8 @@ body {
     display: grid;
     justify-content: center;
     width: 100%;
-    margin: auto;
-    padding-bottom: 40px;
+    margin-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 .releases-title {

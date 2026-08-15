@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $("#top-image").fadeIn(2200);
+    $("body").fadeIn(1000);
 });
