@@ -1,0 +1,87 @@
+.bottombar {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: margin-top 1s ease, padding-bottom 1s ease;
+}
+
+.bottombar:hover {
+    margin-top: -15px;
+    padding-bottom: 15px;
+}
+
+.bottombar-title {
+    padding-top: 1px;
+    padding-left: 30px;
+    color:rgb(14, 128, 235);
+    font-family: 'Bitcount Prop Single';
+    font-size: 33px;
+    transition: font-size 1s ease;
+}
+
+.bottombar-title:hover {
+    font-size: 36px;
+}
+
+.leftbottombar {
+    display: flex;
+    list-style-type: none;
+    padding-left: 50px;
+    font-size: 22px;
+    gap: 10px;
+}
+
+.rightbottombar {
+    display: flex;
+    list-style-type: none;
+    float: right;
+    font-size: 18px;
+    margin-left: auto;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+.bottombar-item {
+    float: inline-end;
+}
+
+.bottombar-item a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Archivo Black';
+    padding: 12px;
+    border-radius: 23px;
+    font-size: 20px;
+    transition: font-size 1s ease, background-color 1s ease-in, color 1s ease, box-shadow 3s ease, border-radius 2s ease;
+}
+
+.bottombar-item a:hover {
+    color:rgb(14, 128, 235);
+    background-color: rgba(51, 48, 48, 0.3);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.bottombar-item-join a {
+    color: white;
+    background-color: rgb(14, 128, 235);
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    padding-left: 25px;
+    text-decoration: none;
+    font-family: 'Bitcount Prop Single';
+    transition: font-size 1s ease, background-color 1s ease-in, color 1s ease, box-shadow 3s ease, border-radius 1s ease;
+}
+
+.bottombar-item-join a:hover {
+    color:rgb(14, 128, 235);
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+}

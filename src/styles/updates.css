@@ -1,0 +1,65 @@
+/* body */
+
+body {
+    display: none;
+    background-color:#ffffff;
+}
+
+/* Navbar */
+
+#navbar {
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+}
+
+/* Updates */
+
+.allUpdates {
+    display: flex;
+    gap: 80px;
+}
+
+.UpdatesBox {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.updates {
+    display: grid;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 40px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+
+.Updatestitle {
+    justify-content: start;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(248, 247, 245);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: max-content;
+    border-radius: 20px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 35px;
+    transition: padding 2s ease, font-size 2s ease;
+}
+
+.Updatestitle:hover {
+    font-size: 36px;
+}
+
+/* Bottom bar */
+
+#bottombar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

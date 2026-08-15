@@ -1,0 +1,119 @@
+.navbar {
+    display: flex;
+    top: 15px;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    max-width: 2000px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #0f0e0e;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    gap: 30px;
+    transition: all 1s ease;
+}
+
+.navbar:hover {
+    padding: 10px;
+}
+
+.navbar-name {
+    padding-top: 1px;
+    padding-left: 20px;
+    color:rgb(14, 128, 235);
+    font-family: 'Bitcount Prop Single';
+    font-size: 33px;
+    transition: font-size 1s ease;
+}
+
+.navbar-name:hover {
+    font-size: 36px;
+}
+
+.navbar-left {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.navbar-right {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.navbar-item {
+    float: inline-start;
+}
+
+.join-item {
+    float: inline-start;
+}
+
+.navbar-item a {
+    display: flex;
+    color: white;
+    font-family: 'Archivo Black';
+    font-size: 25px;
+    padding: 12px 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0);
+    border-radius: 23px;
+    transition: font-size 1s ease, background-color 1s ease-in, color 1s ease, box-shadow 3s ease, border-radius 2s ease;
+}
+
+.navbar-item a:hover {
+    color:rgb(14, 128, 235);
+    background-color: rgba(51, 48, 48, 0.5);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.join-item a {
+    display: flex;
+    color: rgb(248, 247, 245);
+    background-color: rgb(14, 128, 235);
+    border-radius: 25px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 30px;
+    padding: 8px 30px;
+    padding-left: 25px;
+    padding-right: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    transition: font-size 1s ease, background-color 1s ease-out, color 1s ease, border-radius 1s ease;
+}
+
+.join-item a:hover {
+    color:rgb(14, 128, 235);
+    background-color: rgb(248, 247, 245);
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+.searchbarNav {
+    width: 3.7%;
+    height: 40PX;
+    border-radius: 10PX;
+    font-family: 'Oswald';
+    font-size: 20px;
+    background-color: #cce4f5;
+    border: solid 1px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    padding-right: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 1s ease;
+}
+
+.searchbarNav:hover {
+    width: 13.2%;
+}

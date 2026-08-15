@@ -1,0 +1,93 @@
+.box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: fit-content;
+    max-width: 1300px;
+    transition: box-shadow 2s ease, padding 2s ease, border-radius 2s ease;
+}
+
+.box:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.creation-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: padding 2s ease
+}
+
+.creation-data:hover {
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.creationdate {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #cce4f5;
+    color: rgb(14, 128, 235);
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 18px;
+    transition: padding 2s ease, border-radius 2s ease, font-size 2s ease;
+}
+
+.creationdate:hover {
+    padding: 16px;
+    font-size: 21px;
+    border-radius: 10px;
+}
+
+.creationtype {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #f8f3c8;
+    color: rgb(235, 176, 14);
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 13px;
+    transition: padding 2s ease, border-radius 2s ease, font-size 2s ease;
+}
+
+.creationtype:hover {
+    padding: 16px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.creationtitle {
+    color: rgb(14, 128, 235);
+    font-family: 'Bitcount Prop Single';
+    font-size: 27px;
+    padding: 10px;
+    transition: font-size 1s ease, padding 2s ease;
+}
+
+.creationtitle:hover {
+    font-size: 34px;
+    padding: 20px;
+}
+
+.creationtext {
+    font-family: 'Oswald';
+    font-size: 17px;
+    padding: 10px;
+    transition: font-size 1s ease, padding 2s ease;
+}
+
+.creationtext:hover {
+    font-size: 24px;
+    padding: 20px;
+}

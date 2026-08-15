@@ -1,0 +1,113 @@
+.newsbox {
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    max-width: 500px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: box-shadow 2s ease, border-radiu 2s ease, padding 1s ease;
+}
+
+.newsbox:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.newsbox-texts-box {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.newsbox-date {
+    margin: 10px;
+    font-family: 'Oswald';
+    font-size: 12px;
+    padding: 10px;
+    background-color: #000000;
+    width: fit-content;
+    border-radius: 10px;
+    color: #cce4f5;
+    transition: padding 1s ease, font-size 1s ease;
+}
+
+.newsbox-date:hover {
+    font-size: 16px;
+    padding: 14px;
+}
+
+.newsbox-title {
+    margin: 10px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 30px;
+    color: rgb(14, 128, 235);
+    margin: 10px;
+    transition: font-size 1s ease;
+}
+
+.newsbox-title:hover {
+    font-size: 36px;
+}
+
+.newsbox-text {
+    margin: 10px;
+    font-family: 'Oswald';
+    padding: 3px;
+    font-size: 15px;
+    color: #444;
+    margin: 10px 8px;
+    text-wrap: wrap;
+    transition: font-size 1s ease;
+}
+
+.newsbox-text:hover {
+    font-size: 18px;
+}
+
+.newsbox-type {
+    margin: 10px;
+    align-self: start; 
+    background-color: #cce4f5;
+    color: rgb(14, 128, 235);
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 10px;
+    text-transform: uppercase;
+    transition: padding 1s ease, font-size 1s ease;
+}
+
+.newsbox-type:hover {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.newsbox-views-box {
+    margin: 10px;
+    background-color: #000000;
+    color: #cce4f5;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 25%;
+    height: 20%;
+}
+
+.newsbox-views {
+    font-family: 'Bitcount Prop Single';
+    padding: 13px;
+    text-wrap: nowrap;
+    transition: padding 1s ease, font-size 1s ease;
+}
+
+.newsbox-views:hover {
+    padding: 15px 15px;
+    font-size: 25px;
+}

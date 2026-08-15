@@ -1,0 +1,138 @@
+/* body */
+
+body {
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar */
+
+#navbar {
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+}
+
+/* Form */
+
+.return {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: fit-content;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(10%, 3vw, 20%);
+    transition: all 1s ease;
+}
+
+.return:hover {
+    padding: 60px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lapass,
+.laemail {
+    font-family: 'Oswald';
+    font-size: 25px;
+    padding: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: fit-content;
+    border-radius: 15px;
+    transition: all 1s ease;
+}
+
+.lapass:hover,
+.laemail:hover {
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.inpass,
+.inemail {
+    height: 40px;
+    width: 250px;
+    font-family: 'Oswald';
+    font-size: 20px;
+    border-radius: 13px;
+    background-color: #cce4f5;
+    border: none;
+    padding: 10px;
+    transition: all 1s ease;
+}
+
+.inpass:hover,
+.inemail:hover {
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.submit {
+    width: fit-content;
+    border-radius: 15px;
+    background-color: transparent;
+    border: none;
+    font-family: "Bitcount Prop Single";
+    font-size: 23px;
+    padding: 23px;
+    margin: 20px;
+    color: rgb(14, 128, 235);
+    background-color: #cce4f5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 1s ease;
+}
+
+.submit:hover {
+    border-radius: 10px;
+    font-size: 27px;
+    padding: 28px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.join{
+    margin-top: 15px;
+}
+
+.join a {
+    text-decoration: None;
+    font-family: "Bitcount Prop Single";
+    font-size: 15px;
+    padding: 10px;
+    color: #4b6174;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: all 1s ease;
+}
+
+.join a:hover {
+    font-size: 17px;
+    padding: 17px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Bottom bar */
+
+#bottombar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

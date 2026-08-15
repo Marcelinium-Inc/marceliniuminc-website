@@ -1,0 +1,114 @@
+.newsboxExtra {
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    max-width: 900px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: box-shadow 2s ease, border-radiu 2s ease, padding 1s ease;
+}
+
+.newsboxExtra:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.newsboxExtra-texts-box {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.newsboxExtra-date {
+    margin: 10px;
+    font-family: 'Oswald';
+    font-size: 12px;
+    padding: 10px;
+    background-color: #000000;
+    width: fit-content;
+    border-radius: 10px;
+    color: #cce4f5;
+    transition: padding 1s ease, font-size 1s ease;
+}
+
+.newsboxExtra-date:hover {
+    font-size: 16px;
+    padding: 14px;
+}
+
+.newsboxExtra-title {
+    margin: 10px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 30px;
+    color: rgb(14, 128, 235);
+    margin: 10px;
+    transition: font-size 1s ease;
+}
+
+.newsboxExtra-title:hover {
+    font-size: 36px;
+}
+
+.newsboxExtra-text {
+    margin: 10px;
+    font-family: 'Oswald';
+    padding: 3px;
+    font-size: 15px;
+    color: #444;
+    margin: 10px 8px;
+    text-wrap: wrap;
+    transition: font-size 1s ease;
+}
+
+.newsboxExtra-text:hover {
+    font-size: 18px;
+}
+
+.newsboxExtra-type {
+    margin: 10px;
+    align-self: start; 
+    background-color: #cce4f5;
+    color: rgb(14, 128, 235);
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-family: 'Bitcount Prop Single';
+    font-size: 10px;
+    text-transform: uppercase;
+    transition: padding 1s ease, font-size 1s ease;
+}
+
+.newsboxExtra-type:hover {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.newsboxExtra-views-box {
+    margin: 10px;
+    background-color: #000000;
+    color: #cce4f5;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 15%;
+    height: 5%;
+}
+
+.newsboxExtra-views {
+    font-family: 'Bitcount Prop Single';
+    padding: 7px;
+    font-size: 20px;
+    text-wrap: nowrap;
+    transition: padding 1s ease, font-size 1s ease;
+}
+
+.newsboxExtra-views:hover {
+    padding: 10px;
+    font-size: 25px;
+}
